@@ -175,6 +175,7 @@ nav ul ul ul li a {
   display: block;
   padding: 1%;
   width: 100%;
+  height 5%;
 }
 .montag img,
 .dienstag img,
@@ -190,12 +191,6 @@ nav ul ul ul li a {
 /**/
 
 /**/
-/* Handy Ansicht Anfang */
-@media (max-width: 900px) {
-  .sek {
-    display: none;
-  }
-}
 .Besonders {
   position: absolute;
   display: block;
