@@ -196,7 +196,7 @@ nav ul ul ul li a {
   position: absolute;
   display: block;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -212,7 +212,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -227,7 +227,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -242,7 +242,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -257,7 +257,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -272,7 +272,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -287,7 +287,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -302,7 +302,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -318,7 +318,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -333,7 +333,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -348,7 +348,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -363,7 +363,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -378,7 +378,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -393,7 +393,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -408,7 +408,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -424,7 +424,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -439,7 +439,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -454,7 +454,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -469,7 +469,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -484,7 +484,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -499,7 +499,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -514,7 +514,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -529,7 +529,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -544,7 +544,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -560,7 +560,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -575,7 +575,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -590,7 +590,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -605,7 +605,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
@@ -620,7 +620,7 @@ nav ul ul ul li a {
   position: absolute;
   display: none;
   width: 18.5%;
-  height: calc(100% - 3 * var(--navbar-height));
+  height: calc(100% - 2.5 * var(--navbar-height));
   margin: 2%;
   background-color: #312f2f;
 
