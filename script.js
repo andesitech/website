@@ -474,7 +474,170 @@ function allHide(){
     FrWpf.style.display = 'none';
 }
 
-const Next = document.querySelector(".next");
-Next.addEventListener("click", function(event) {
+function aug1(){
+    window.location.replace("./../../2022/08-August/1-5.html")
+}
+function aug2(){
     window.location.replace("./../../2022/08-August/8-12.html")
-});
+}
+function aug3(){
+    window.location.replace("./../../2022/08-August/15-19.html")
+}
+function aug4(){
+    window.location.replace("./../../2022/08-August/22-26.html")
+}
+function aug5(){
+    window.location.replace("./../../2022/08-August/29-2.html")
+}
+
+function sept1(){
+    window.location.replace("./../../2022/09-September/5-9.html")
+}
+function sept2(){
+    window.location.replace("./../../2022/09-September/12-16.html")
+}
+function sept3(){
+    window.location.replace("./../../2022/09-September/19-23.html")
+}
+function sept4(){
+    window.location.replace("./../../2022/09-September/26-30.html")
+}
+
+function okt1(){
+    window.location.replace("./../../2022/10-Oktober/3-7.html")
+}
+function okt2(){
+    window.location.replace("./../../2022/10-Oktober/10-14.html")
+}
+function okt3(){
+    window.location.replace("./../../2022/10-Oktober/17-21.html")
+}
+function okt4(){
+    window.location.replace("./../../2022/10-Oktober/24-28.html")
+}
+function okt5(){
+    window.location.replace("./../../2022/10-Oktober/31-4.html")
+}
+
+function nov1(){
+    window.location.replace("./../../2022/11-November/7-11.html")
+}
+function nov2(){
+    window.location.replace("./../../2022/11-November/14-18.html")
+}
+function nov3(){
+    window.location.replace("./../../2022/11-November/21-25.html")
+}
+function nov4(){
+    window.location.replace("./../../2022/11-November/28-2.html")
+}
+
+function dez1(){
+    window.location.replace("./../../2022/12-Dezmber/5-9.html")
+}
+function dez2(){
+    window.location.replace("./../../2022/12-Dezmber/12-16.html")
+}
+function dez3(){
+    window.location.replace("./../../2022/12-Dezmber/19-23.html")
+}
+function dez4(){
+    window.location.replace("./../../2022/12-Dezmber/26-30.html")
+}
+
+function jan1(){
+    window.location.replace("./../../2023/01-Januar/2-6.html")
+}
+function jan2(){
+    window.location.replace("./../../2023/01-Januar/9-13.html")
+}
+function jan3(){
+    window.location.replace("./../../2023/01-Januar/16-20.html")
+}
+function jan4(){
+    window.location.replace("./../../2023/01-Januar/23-27.html")
+}
+function jan5(){
+    window.location.replace("./../../2023/01-Januar/30-3.html")
+}
+
+function feb1(){
+    window.location.replace("./../../2023/02-Februar/6-10.html")
+}
+function feb2(){
+    window.location.replace("./../../2023/02-Februar/13-17.html")
+}
+function feb3(){
+    window.location.replace("./../../2023/02-Februar/20-24.html")
+}
+function feb4(){
+    window.location.replace("./../../2023/02-Februar/27-3.html")
+}
+
+function mar1(){
+    window.location.replace("./../../2023/03-Maerz/6-10.html")
+}
+function mar2(){
+    window.location.replace("./../../2023/03-Maerz/13-17.html")
+}
+function mar3(){
+    window.location.replace("./../../2023/03-Maerz/20-24.html")
+}
+function mar4(){
+    window.location.replace("./../../2023/03-Maerz/27-31.html")
+}
+
+function apr1(){
+    window.location.replace("./../../2023/04-April/3-7.html")
+}
+function apr2(){
+    window.location.replace("./../../2023/04-April/10-14.html")
+}
+function apr3(){
+    window.location.replace("./../../2023/04-April/17-21.html")
+}
+function apr4(){
+    window.location.replace("./../../2023/04-April/24-28.html")
+}
+
+function mai1(){
+    window.location.replace("./../../2023/05-Mai/1-5.html")
+}
+function mai2(){
+    window.location.replace("./../../2023/05-Mai/8-12.html")
+}
+function mai3(){
+    window.location.replace("./../../2023/05-Mai/15-19.html")
+}
+function mai4(){
+    window.location.replace("./../../2023/05-Mai/22-26.html")
+}
+function mai5(){
+    window.location.replace("./../../2023/05-Mai/29-2.html")
+}
+
+function jun1(){
+    window.location.replace("./../../2023/06-juni/5-9.html")
+}
+function jun2(){
+    window.location.replace("./../../2023/06-juni/12-16.html")
+}
+function jun3(){
+    window.location.replace("./../../2023/06-juni/19-23.html")
+}
+function jun4(){
+    window.location.replace("./../../2023/06-juni/26-30.html")
+}
+
+function jul1(){
+    window.location.replace("./../../2023/07-juli/3-7.html")
+}
+function jul2(){
+    window.location.replace("./../../2023/07-juli/10-14.html")
+}
+function jul3(){
+    window.location.replace("./../../2023/07-juli/17-21.html")
+}
+function jul4(){
+    window.location.replace("./../../2023/07-juli/24-28.html")
+}
