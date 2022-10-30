@@ -1,0 +1,1259 @@
+:root {
+  --background-color: #1b1b1b;
+  --background-color1: #1b1b1b;
+  --accent-color: #b980ff;
+  --text-color: #e4e4e4;
+  --text-height: 30px;
+  --navbar-height: 87.5px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  font-size: var(--text-height);
+}
+
+/* Klassen Anfang */
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: var(--background-color1);
+}
+.dropdwn {
+  margin: 0 auto;
+}
+.dtext,
+.dtext:hover {
+  align-items: center;
+  padding: 17.5px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #6c6c6c;
+  cursor: default;
+}
+.abstand,
+.abstand:hover {
+  padding-top: 20px;
+}
+.navtext,
+.sek,
+.kalender {
+  font-size: var(--text-height);
+  color: var(--text-color);
+  padding: 15px;
+}
+.arrow_down {
+  width: 30px;
+  height: 15px;
+  margin-right: 5px;
+  display: none;
+}
+.arrow_hover {
+  width: 30px;
+  height: 15px;
+  margin-right: 5px;
+  display: none;
+}
+.datum {
+  font-size: 50px;
+  color: var(--text-color);
+}
+.datum2 {
+  display: none;
+}
+/* Klassen Ende */
+
+/* Navbar Anfang */ /* Laptop */
+nav {
+  height: var(--navbar-height);
+  background: var(--background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  margin-left: 30px;
+  height: 60px;
+
+  top: 80px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-right: 30px;
+}
+nav ul li {
+  background: var(--background-color);
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 0px 15px;
+  text-decoration: none;
+  line-height: 40px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--text-color);
+}
+nav ul li a:hover {
+  color: var(--accent-color);
+}
+nav ul ul {
+  position: absolute;
+  top: 70px;
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul ul li:hover > ul {
+  display: block;
+}
+nav ul ul li {
+  width: 210px;
+  float: none;
+  position: relative;
+  z-index: 1;
+}
+nav ul ul ul li {
+  display: block;
+  position: relative;
+  right: 190px;
+  top: -140px;
+}
+nav ul ul ul li a {
+  text-align: center;
+}
+/* Navbar Ende */ /* Laptop */
+
+/* Body Anfang */
+
+/**/
+.anzeige_seite {
+  display: flex;
+  width: 22.5%;
+  height: calc(100% - 2 * var(--navbar-height));
+  float: left;
+}
+.tage {
+  display: block;
+  margin-left: 22.5%;
+  margin-right: 1%;
+  height: calc(100% - 2 * var(--navbar-height) + 0.5%);
+  background-color: #312f2f;
+
+  border-radius: 20px;
+}
+
+.montag_tag,
+.dienstag_tag,
+.mittwoch_tag,
+.donnerstag_tag,
+.freitag_tag {
+  float: left;
+  width: 18%;
+  padding: 0.5%;
+  background-color: #48495b;
+  margin: 0.5%;
+  border-radius: 20px;
+}
+.montag_tag img,
+.dienstag_tag img,
+.mittwoch_tag img,
+.donnerstag_tag img,
+.freitag_tag img {
+  position: relative;
+  display: block;
+  padding: 1%;
+  width: 100%;
+}
+.montag img,
+.dienstag img,
+.mittwoch img,
+.donnerstag img,
+.freitag img {
+  margin-left: -1%;
+}
+/**/
+
+/**/
+
+/**/
+
+/**/
+/* Handy Ansicht Anfang */
+@media (max-width: 900px) {
+  .sek {
+    display: none;
+  }
+}
+.Besonders {
+  position: absolute;
+  display: block;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #312f2f;
+  border-width: 7px;
+
+  list-style: none;
+}
+
+.MoFra {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #44cbab;
+  border-width: 7px;
+
+  list-style: none;
+}
+.MoDeu1 {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #44cbab;
+  border-width: 7px;
+
+  list-style: none;
+}
+.MoDeu2 {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #44cbab;
+  border-width: 7px;
+
+  list-style: none;
+}
+.MoEng {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #44cbab;
+  border-width: 7px;
+
+  list-style: none;
+}
+.MoWpf {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #cb449d;
+  border-width: 7px;
+
+  list-style: none;
+}
+.MoSpo {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #9044cb;
+  border-width: 7px;
+
+  list-style: none;
+}
+.MoGGG {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #cb6444;
+  border-width: 7px;
+
+  list-style: none;
+}
+
+.DiMat1 {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #449acb;
+  border-width: 7px;
+
+  list-style: none;
+}
+.DiMat2 {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #449acb;
+  border-width: 7px;
+
+  list-style: none;
+}
+.DiEng {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #44cbab;
+  border-width: 7px;
+
+  list-style: none;
+}
+.DiGGG {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #cb6444;
+  border-width: 7px;
+
+  list-style: none;
+}
+.DiDeu {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #44cbab;
+  border-width: 7px;
+
+  list-style: none;
+}
+.DiNat {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #57cb44;
+  border-width: 7px;
+
+  list-style: none;
+}
+.DiFra {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #44cbab;
+  border-width: 7px;
+
+  list-style: none;
+}
+
+.MiDeu {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #44cbab;
+  border-width: 7px;
+
+  list-style: none;
+}
+.MiEng {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #44cbab;
+  border-width: 7px;
+
+  list-style: none;
+}
+.MiMat1 {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #449acb;
+  border-width: 7px;
+
+  list-style: none;
+}
+.MiNat {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #57cb44;
+  border-width: 7px;
+
+  list-style: none;
+}
+.MiMat2 {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #449acb;
+  border-width: 7px;
+
+  list-style: none;
+}
+.DoMat {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #449acb;
+  border-width: 7px;
+
+  list-style: none;
+}
+.DoSa {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #44cbab;
+  border-width: 7px;
+
+  list-style: none;
+}
+.DoSpo {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #9044cb;
+  border-width: 7px;
+
+  list-style: none;
+}
+.DoWah {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #4449cb;
+  border-width: 7px;
+
+  list-style: none;
+}
+
+.FrInf {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #449acb;
+  border-width: 7px;
+
+  list-style: none;
+}
+.FrMus {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #9044cb;
+  border-width: 7px;
+
+  list-style: none;
+}
+.FrFra {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #44cbab;
+  border-width: 7px;
+
+  list-style: none;
+}
+.FrGGG {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #cb6444;
+  border-width: 7px;
+
+  list-style: none;
+}
+.FrWpf {
+  position: absolute;
+  display: none;
+  width: 18.5%;
+  height: calc(100% - 3 * var(--navbar-height));
+  margin: 2%;
+  background-color: #312f2f;
+
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #cb449d;
+  border-width: 7px;
+
+  list-style: none;
+}
+
+.text {
+  width: 200px;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+.Titel {
+  font-size: 40px;
+}
+.Zeiten {
+  font-size: 25px;
+}
+.Daten {
+  font-size: 35px;
+}
+.Daten2 {
+  font-size: 33px;
+}
+.back {
+  height: 70px;
+  margin-left: 24%;
+  margin-top: 0.5%;
+}
+.next {
+  position: absolute;
+  height: 70px;
+  margin-left: 68.5%;
+  margin-top: 0.5%;
+}
+
+/* Handy Ansicht Anfang */
+@media (max-width: 600px) {
+  .datum {
+    display: none;
+  }
+  .datum2 {
+    display: block;
+    margin-left: 25%;
+  }
+  .tage {
+    display: block;
+    margin-left: 50%;
+    margin-right: 1%;
+    width: 50%;
+    height: max-content;
+    background-color: #312f2f;
+
+    border-radius: 20px;
+  }
+
+  .navtext,
+  .sek,
+  .kalender {
+    display: none;
+  }
+  body .date {
+    display: none;
+  }
+  nav {
+    margin-top: 3%;
+    height: calc(1.25 * var(--navbar-height));
+    width: 100%;
+    background: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .logo {
+    margin-left: 5%;
+    width: 90%;
+    height: 43%;
+  }
+
+  .montag_tag {
+    width: 80%;
+    margin-top: 7.5%;
+    margin-left: 10%;
+  }
+  .dienstag_tag,
+  .mittwoch_tag,
+  .donnerstag_tag,
+  .freitag_tag {
+    width: 80%;
+    margin-top: 2.5%;
+    margin-left: 10%;
+  }
+  .montag_tag img,
+  .dienstag_tag img,
+  .mittwoch_tag img,
+  .donnerstag_tag img,
+  .freitag_tag img {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .montag img,
+  .dienstag img,
+  .mittwoch img,
+  .donnerstag img,
+  .freitag img {
+    position: relative;
+    display: none;
+    width: 90%;
+    left: 4%;
+    margin: 1%;
+  }
+  .montag_tag:hover > .montag img {
+    display: block;
+  }
+  .dienstag_tag:hover > .dienstag img {
+    display: block;
+  }
+  .mittwoch_tag:hover > .mittwoch img {
+    display: block;
+  }
+  .donnerstag_tag:hover > .donnerstag img {
+    display: block;
+  }
+  .freitag_tag:hover > .freitag img {
+    display: block;
+  }
+
+  .Besonders {
+    position: absolute;
+    display: block;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #312f2f;
+    border-width: 7px;
+
+    list-style: none;
+  }
+
+  .MoFra {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #44cbab;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .MoDeu1 {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #44cbab;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .MoDeu2 {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #44cbab;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .MoEng {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #44cbab;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .MoWpf {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #cb449d;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .MoSpo {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #9044cb;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .MoGGG {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #cb6444;
+    border-width: 7px;
+
+    list-style: none;
+  }
+
+  .DiMat1 {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #449acb;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .DiMat2 {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #449acb;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .DiEng {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #44cbab;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .DiGGG {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #cb6444;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .DiDeu {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #44cbab;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .DiNat {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #57cb44;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .DiFra {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #44cbab;
+    border-width: 7px;
+
+    list-style: none;
+  }
+
+  .MiDeu {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #44cbab;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .MiEng {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #44cbab;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .MiMat1 {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #449acb;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .MiNat {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #57cb44;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .MiMat2 {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #449acb;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .DoMat {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #449acb;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .DoSa {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #44cbab;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .DoSpo {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #9044cb;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .DoWah {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #4449cb;
+    border-width: 7px;
+
+    list-style: none;
+  }
+
+  .FrInf {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #449acb;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .FrMus {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #9044cb;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .FrFra {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #44cbab;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .FrGGG {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #cb6444;
+    border-width: 7px;
+
+    list-style: none;
+  }
+  .FrWpf {
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 40%;
+    margin: 3%;
+    margin-top: 4%;
+    background-color: #312f2f;
+
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #cb449d;
+    border-width: 7px;
+
+    list-style: none;
+  }
+
+  .text {
+    width: 200px;
+    margin-left: 10%;
+    margin-top: 10%;
+    line-height: 25px;
+  }
+  .Titel {
+    font-size: 30px;
+  }
+  .Zeiten {
+    font-size: 15px;
+  }
+  .Daten {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .Daten2 {
+    font-size: 20px;
+  }
+
+  .back {
+    height: 35px;
+    margin-left: -89%;
+    margin-top: 97%;
+  }
+  .next {
+    position: absolute;
+    height: 35px;
+    margin-left: 30%;
+    margin-top: 97%;
+  }
+}

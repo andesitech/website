@@ -1,0 +1,28 @@
+:root {
+  --background-color: #000000;
+  --accent-color: #b980ff;
+  --text-color: #ffffff;
+  --text-height: 30px;
+  --navbar-height: 80px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  font-size: var(--text-height);
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: #000000;
+  height: 100%;
+}
+.logo {
+  width: 60%;
+  margin-top: 7.5%;
+  margin-left: 20%;
+}
