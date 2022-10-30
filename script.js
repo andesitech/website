@@ -617,7 +617,7 @@ function mai5(){
 }
 
 function jun1(){
-    window.location.replace("./../../2023/06-juni/5-9.html")
+    window.location.replace("./../../2023/06-Juni/5-9.html")
 }
 function jun2(){
     window.location.replace("./../../2023/06-juni/12-16.html")
