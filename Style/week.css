@@ -148,9 +148,6 @@ nav ul ul ul li a {
   margin-left: 22.5%;
   margin-right: 1%;
   height: calc(100% - 2 * var(--navbar-height) + 0.5%);
-  background-color: #312f2f;
-
-  border-radius: 20px;
 }
 
 .montag_tag,
@@ -641,16 +638,16 @@ nav ul ul ul li a {
   margin-top: 10%;
 }
 .Titel {
-  font-size: 40px;
-}
-.Zeiten {
-  font-size: 25px;
-}
-.Daten {
   font-size: 35px;
 }
+.Zeiten {
+  font-size: 20px;
+}
+.Daten {
+  font-size: 30px;
+}
 .Daten2 {
-  font-size: 33px;
+  font-size: 30px;
 }
 .back {
   height: 70px;
