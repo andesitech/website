@@ -473,3 +473,8 @@ function allHide(){
     FrGGG.style.display = 'none';
     FrWpf.style.display = 'none';
 }
+
+const Next = document.querySelector(".next");
+Next.addEventListener("click", function(event) {
+    window.location.replace("./../../2022/08-August/8-12.html")
+});

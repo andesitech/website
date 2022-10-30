@@ -147,6 +147,7 @@ nav ul ul ul li a {
   display: block;
   margin-left: 22.5%;
   margin-right: 1%;
+  height: calc(100% - 2 * var(--navbar-height) + 0.5%);
   background-color: #312f2f;
 
   border-radius: 20px;
@@ -159,7 +160,6 @@ nav ul ul ul li a {
 .freitag_tag {
   float: left;
   width: 18%;
-  height: max-content;
   padding: 0.5%;
   background-color: #48495b;
   margin: 0.5%;
@@ -174,7 +174,6 @@ nav ul ul ul li a {
   display: block;
   padding: 1%;
   width: 100%;
-  height 5%;
 }
 .montag img,
 .dienstag img,
@@ -190,6 +189,12 @@ nav ul ul ul li a {
 /**/
 
 /**/
+/* Handy Ansicht Anfang */
+@media (max-width: 900px) {
+  .sek {
+    display: none;
+  }
+}
 .Besonders {
   position: absolute;
   display: block;
@@ -636,16 +641,16 @@ nav ul ul ul li a {
   margin-top: 10%;
 }
 .Titel {
-  font-size: 35px;
+  font-size: 40px;
 }
 .Zeiten {
   font-size: 25px;
 }
 .Daten {
-  font-size: 32px;
+  font-size: 35px;
 }
 .Daten2 {
-  font-size: 30px;
+  font-size: 33px;
 }
 .back {
   height: 70px;
@@ -1221,23 +1226,23 @@ nav ul ul ul li a {
   }
 
   .text {
-    width: 200px;
+    width: 150px;
     margin-left: 10%;
     margin-top: 10%;
     line-height: 25px;
   }
   .Titel {
-    font-size: 30px;
+    font-size: 25px;
   }
   .Zeiten {
-    font-size: 15px;
+    font-size: 13px;
   }
   .Daten {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 16px;
   }
   .Daten2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .back {
