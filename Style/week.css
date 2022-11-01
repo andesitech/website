@@ -1259,5 +1259,7 @@ nav ul ul ul li a {
   
   .freitag_tag1 {
   display: none;
+  position: absolute;
+  margin-top: 100px;
   }
 }
