@@ -1256,4 +1256,8 @@ nav ul ul ul li a {
     margin-left: 30%;
     margin-top: 97%;
   }
+  
+  .freitag_tag1 {
+  display: none;
+  }
 }
